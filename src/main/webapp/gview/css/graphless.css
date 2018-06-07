@@ -1,0 +1,261 @@
+body {
+    color: #222;
+    font: 10pt arial;
+    background-color: #ffffff;
+}
+
+#mynetwork {
+    width: 100%;
+    height:98vh;
+    border: 0px solid #444444;
+    background-color: EEE;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    border-left: 2px solid #EEE;
+    background-color: #FFF; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #8d0c19;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #111;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    color: #CE3C3C;
+    top: 5px;
+    right: 10px;
+    font-size: 36px;
+    margin-left: 0px;
+}
+
+ .openbtn {
+    padding: 8px 8px 8px 32px;
+    position: absolute;
+    color: #CE3C3C;
+    top: 5px;
+    right: 10px;
+    font-size: 36px;
+    margin-left: 0px;
+}
+
+.openbtn a:hover {
+    color: #111;
+}
+
+.infotitle {
+    position: absolute;
+    color: #CE3C3C;
+    top: 15px;
+    left: 5px;
+    font-size: 36px;
+    margin-right: 0px;
+    margin-top:1em;
+}
+
+.graphselector {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 18px !important;
+    margin-right: 0px;
+    padding: 4px  !important;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.topbtn {
+	position: fixed;
+  	top: 5px;
+  	right: 5px;
+  	z-index: 1;
+}
+
+
+.oeglogo {
+	position: fixed;
+  	top: 88vh;
+  	right: 5px;
+  	z-index: 1;
+  	width: 80px;
+}
+
+
+
+.bottomleftbtn {
+	position: fixed;
+  	top: 93vh;
+  	left: 5px;
+  	z-index: 1;
+}
+
+
+.bottomleftbtn2 {
+	position: fixed;
+  	top: 86vh;
+  	left: 5px;
+  	z-index: 1;
+}
+
+.bottomleftbtn3 {
+	position: fixed;
+  	top: 79vh;
+  	left: 5px;
+  	z-index: 1;
+}
+
+.logo {
+	position: fixed;
+  	top: 5px;
+  	left: 5px;
+  	z-index: 1;
+}
+.logo > img {
+	height : 4em;
+	-webkit-filter: drop-shadow(1px 1px 1px #ccc);
+    filter:         drop-shadow(1px 1px 1px #ccc); 
+    opacity: 1;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+
+.panelsection {
+	color: #8d0c19;
+	margin: 10px;
+}
+
+.paneltitle {
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+
+.advancedpaneltitle {
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.suburi > a {
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 1em;
+	font-size: 0.8em;
+}
+
+.center {
+	text-align: center;
+}
+
+.gobtn {
+	margin-top: 20px;
+}
+
+.mtop {
+	margin-top: 15px;
+}
+
+
+.btn-circle {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 20px;
+  line-height: 1.428571429;
+  border-radius: 20px;
+  color: #FFF;
+}
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 24px;
+  color: #FFF;
+  line-height: 1.33;
+  border-radius: 25px;
+  text-align: center;
+}
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+
+.gps_ring {
+    -webkit-animation: pulsate 2s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.0;
+    z-index: 20;
+}
+@-webkit-keyframes pulsate {
+    0% { opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {opacity: 0.0;}
+}
+
+.hidden {
+    display: none;
+}
+
+.aboutcontent {
+	margin-top: 90px;
+	margin-left: 40px;
+	margin-right: 200px;
+}
+
+.abouttitle {
+	color: #CE3C3C;
+}
+
+.abouttext {
+	font-size: 20px;
+	margin: 15px;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+.social {
+    
+    position: absolute;
+    color: #CE3C3C;
+    bottom: 5px;
+    left: 10px;
+    font-size: 48px;
+    margin-left: 10px;
+	
+}
